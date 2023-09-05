@@ -3,17 +3,7 @@ import Home from './routes/Home/index'
 import Produtos from './routes/Produtos/index'
 import Error from './routes/Error/index'
 import EditarProdutos from './routes/EditarProdutos/index'
-import './App.css'
-import { Outlet } from 'react-router-dom'
 
-function App() {
-  return(
-    <>
-    <Outlet/>
-    </>
-  )
-}
-export default App
 
 /*import React from 'react'
 import ReactDOM from 'react-dom/client'
